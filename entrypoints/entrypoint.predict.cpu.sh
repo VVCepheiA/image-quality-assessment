@@ -9,4 +9,5 @@ IMAGE_SOURCE=$3
 python -m evaluater.predict \
 --base-model-name $BASE_MODEL_NAME \
 --weights-file $WEIGHTS_FILE \
---image-source $IMAGE_SOURCE
+--image-source $IMAGE_SOURCE \
+--predictions-file $IMAGE_SOURCE/eval.json
